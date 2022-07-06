@@ -4,10 +4,69 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Git learn</title>
+    <title>Coffee House</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
 </head>
 <body>
-    <h1>Я изучаю Git</h1>
-    <p>Пока что ничего не понимаю</p> 
+    <header class="header">
+        <nav class="head__menu">
+            <div class="head__logo">
+                <a href="index.html" class="title">coffee house</a>
+            </div>
+            <ul class="head__ul">
+                <li class="head__li"><a href="#head" class="head__link">home</a></li>
+                <li class="head__li"><a href="#story" class="head__link">story</a></li>
+                <li class="head__li"><a href="#blog" class="head__link">blog</a></li>
+                <li class="head__li"><a href="#subs" class="head__link">subscribe</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="main">
+        <div class="block_1" id="head">
+            <p class="img__text">take your time</p>
+            <div class="line"></div>
+        </div>
+        <div class="block_2" id="story">
+            <p class="title">story</p>
+            <div class="story_content">
+                <img class="story_img" src="https://images.unsplash.com/photo-1507915135761-41a0a222c709?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=1080&ixid=MnwxfDB8MXxyYW5kb218MHx8fHx8fHx8MTYzOTMxNTkxNw&ixlib=rb-1.2.1&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=1920">
+                <p class="story_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean varius eget arcu quis cursus. Nunc id tortor imperdiet, vestibulum orci sed, gravida orci. Cras a enim ac elit eleifend euismod. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Praesent mattis ultrices est, congue ullamcorper erat bibendum pulvinar. In accumsan dapibus accumsan. Maecenas semper est ut nunc feugiat, vel ultrices ligula commodo. Donec eget pulvinar nunc, eget pharetra risus.</p>
+            </div>
+        </div>
+        <div class="block_3" id="blog">
+            <p class="title">blog</p>
+            <div class="blog_content">
+                <div class="blog_card">
+                    <p class="card_title">Daily Coffee News</p>
+                    <img class="card_img" src="https://source.unsplash.com/TYIzeCiZ_60/1920x1080">
+                    <p class="card_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean varius eget arcu quis cursus. Nunc id tortor imperdiet, vestibulum orci sed, gravida orci. Cras a enim ac elit eleifend euismod.</p>
+                </div>
+                <div class="blog_card">
+                    <p class="card_title">Dutch Coffee Chains</p>
+                    <img class="card_img" src="https://source.unsplash.com/CSQQ6_T0sks/1920x1080">
+                    <p class="card_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean varius eget arcu quis cursus. Nunc id tortor imperdiet, vestibulum orci sed, gravida orci. Cras a enim ac elit eleifend euismod.</p>
+                </div>
+                <div class="blog_card">
+                    <p class="card_title">Start Up In Minneapolis</p>
+                    <img class="card_img" src="https://source.unsplash.com/9rTEwV_G0Do/1920x1080">
+                    <p class="card_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean varius eget arcu quis cursus. Nunc id tortor imperdiet, vestibulum orci sed, gravida orci. Cras a enim ac elit eleifend euismod.</p>
+                </div>
+            </div>
+        </div>
+        <div class="block_4" id="subs">
+            <form class="enter_email" action="">
+                <label for="email" class="subs_title">SUBSCRIBE</label>
+                <input class="subs_input" type="email" name="email" placeholder="enter your email">
+                <button class="subs_btn" value="send" type="submit">SUBMIT</button>
+            </form>
+        </div>
+    </main>
+    <footer class="footer">
+        <p class="copyright">© COPYRIGHT 2021</p>
+    </footer>
 </body>
 </html>

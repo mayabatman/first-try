@@ -1,0 +1,312 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+body{
+    font-family: 'Oswald';
+}
+
+.header{
+    width: 100%;
+    box-sizing: border-box;
+
+    padding: 29px 80px;
+
+    background: #ffffff;
+
+    position: fixed;
+
+    box-shadow: 0 0 20px #ada7a7;
+}
+
+.head__menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.head__ul{
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-start;
+    list-style: none;
+}
+
+.title{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 53px;
+    text-align: center;
+    text-transform: uppercase;
+
+    color: #000000;
+}
+
+.head__li{
+    
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 36px;
+
+    text-align: center;
+    text-transform: uppercase;
+
+    margin-left: 46px;
+}
+
+.head__link{
+    text-decoration: none;
+    color: #000000;
+}
+
+.head__link:hover{
+    border-bottom: 1px solid #000000;
+}
+
+.head__link:active{
+    border: none;
+    color:#817070;
+}
+
+.block_1{
+    height: 622px;
+    
+    background-image: url(https://images.unsplash.com/photo-1494415859740-21e878dd929d?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=1080&ixid=MnwxfDB8MXxyYW5kb218MHx8fHx8fHx8MTYzOTMxNTg2MQ&ixlib=rb-1.2.1&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=1920);
+    background-size: cover;
+}
+
+.img__text{
+    padding-top: 267px;
+
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 89px;
+
+    text-align: center;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+}
+
+.line{
+    width: 80px;
+    height: 10px;
+
+    text-align: center;
+
+    margin:auto;
+
+    background: #817070;
+}
+
+.block_2{
+    background: #ffffff;
+
+    padding: 60px 80px;  
+}
+
+.story_img{
+    width: 42%;
+}
+
+.story_content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 60px;
+}
+
+.story_text{
+    padding: 0px 40px;
+
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 30px;
+
+    color: #000000;
+}
+
+.block_3{
+    background: #EFEFEF;
+
+    padding: 60px 100px;
+}
+
+.blog_content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    margin-top: 60px;
+}
+
+.blog_card{
+    width: 25%;
+    height: 67%;
+
+    padding: 20px;
+    background: #FFFFFF;
+}
+
+.card_img{
+    width:100%;
+    margin: 24px 0px;
+}
+
+.card_title{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+
+    color: #000000;
+
+}
+
+.card_text{
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 27px;
+
+    color: #000000;
+}
+
+.blog_card:hover{
+    box-shadow: 7px 7px 5px #837d7d;
+}
+
+
+.block_4{
+    background: #817070;
+
+    padding: 60px;
+}
+
+.subs_title{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 53px;
+    text-align: center;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+
+}
+
+.enter_email{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.subs_input{
+    margin: 28px;
+    background: none;
+    border: none;
+    padding: 15px 95px;
+
+    border: 3px solid #FFFFFF;
+}
+
+.subs_input:focus{
+    all: unset;
+
+    margin: 28px;
+    background: none;
+    border: none;
+    padding: 15px 95px;
+
+    border: 5px solid #FFFFFF;
+}
+
+.subs_input::placeholder{
+    
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 30px;
+
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+.subs_input[type=email]{
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 30px;
+
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+button{
+    background: none;
+    border: none;
+}
+
+.subs_btn{
+    border: 2px solid #FFFFFF;
+    background: #FFFFFF;
+    padding: 13px 34px;
+
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    /* identical to box height */
+
+    text-align: center;
+    text-transform: uppercase;
+
+    color: #817070;
+}
+
+.subs_btn:hover{
+    cursor: pointer;
+
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.3);
+}
+
+.subs_btn:active{
+    box-shadow: none;
+    border: none;
+    margin: 2px;
+}
+
+.footer{
+    padding-top: 15px;
+    background: #ffffff;
+}
+
+.copyright{
+    margin: 14px;
+
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 30px;
+
+    text-align: center;
+    text-transform: uppercase;
+
+    color: #000000;
+}
